@@ -8,4 +8,4 @@ Esse é um jogo de escolhas para ser totalmente rodavel em um terminal, feito em
 
 ##MECANICA DO JOGO:
 
-A mecanica do jogo é totalmente simples, onde voce digita um numero equivalente a um canto. E depois o proprio pragrama roda um randomizador para decidir qual canto o goleiro pulou. Ele ainda vai ter uns eventos que dependem de alguma parte da customização. Mas de todo jeito é um jogo feito para ser simples e direto.
+A mecanica do jogo é totalmente simples, onde voce digita um numero equivalente a um canto, e depois o proprio programa roda um randomizador para decidir qual canto o goleiro pulou. Ele tem eventos que dependem de alguma parte da customização. Mas de todo jeito é um jogo feito para ser simples e direto.
