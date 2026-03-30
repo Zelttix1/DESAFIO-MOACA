@@ -179,9 +179,7 @@ int main() {
                 cout << "Opção inválida!\n";
                 return 0;
         }
-        
-        if
-
+    
         cout << "\nPlacar final: 2 x 1\n";
         cout << "BRASIL CLASSIFICADO! 🇧🇷🔥\n";
         ganhou = true;
@@ -242,7 +240,7 @@ int main() {
             
             cout << "No primeiro lance do jogo tem um penalti para a argentina:\n\n ESCOLHA O CANTO QUE O GOLEIRO VAI PULAR:\n\n1- SupDireito\n2- InfDireito\n3- Meio\n4- SupEsquerdo\n5- InfEsquerdo\n";
             
-            cin >> canto 
+            cin >> canto;
             
             cantoGol = rand() % 5 + 1;
             
@@ -283,7 +281,7 @@ int main() {
                     cout << "\n⚽O GOLEIRO SALVA O BRASIL";
                     penalti = true;
                 } else {
-                    cout << "\n 1 X 0 PARA A ARGENTINA! ❌\n"
+                    cout << "\n 1 X 0 PARA A ARGENTINA! ❌\n";
                     return 0;
                 }
                 break;
@@ -304,7 +302,7 @@ int main() {
         }
         
         if(penalti = true){
-            cout << "DEPOIS DE UM MILAGRE QUE O GOLEIRO FAZ A SELEÇÃO FINALMENTE TEM UMA OPORTUNIDADE DE ATACAR!"
+            cout << "DEPOIS DE UM MILAGRE QUE O GOLEIRO FAZ A SELEÇÃO FINALMENTE TEM UMA OPORTUNIDADE DE ATACAR!";
             
             cout << "A BOLA CAI EM SEUS PÉS FORA DA ARÉA QUAL A SUA AÇÃO:\n\n";
             
@@ -331,11 +329,11 @@ int main() {
                
                cout << "MESMO COM A VANTAGEM NO PLACAR O JOGO CONTINUA TRUNCADO E DIFICIL!";
                
-               cout << "MESSI PEGA NA BOLA, DEIXA A MARCAÇÃO PARA TRÁS E ACHA UM PASSE FENOMENAL NO MEIO DA ZAGA BRASILEIRA\n\n -------------------- 1 X 1 --------------------\n\n A ALEGRIA BRASILEIRA DUROU POUCO!\n\n"
+               cout << "MESSI PEGA NA BOLA, DEIXA A MARCAÇÃO PARA TRÁS E ACHA UM PASSE FENOMENAL NO MEIO DA ZAGA BRASILEIRA\n\n -------------------- 1 X 1 --------------------\n\n A ALEGRIA BRASILEIRA DUROU POUCO!\n\n";
                
                cout << "A PARTIDA CONTINUA EXTREMAMENTE TRUNCADA, E ESSE GOL ACABOU DE DAR UM GÁS A MAIS PARA OS HERMANOS!\n\n";
                
-               COUT << "FINALMENTE ACABA O PRIMEIRO TEMPO, MAS A SELEÇÃO ESTÁ EM TOTAL DESVANTAGEM!\n\n";
+               cout << "FINALMENTE ACABA O PRIMEIRO TEMPO, MAS A SELEÇÃO ESTÁ EM TOTAL DESVANTAGEM!\n\n";
                
                cout << R"(
 
@@ -443,7 +441,7 @@ int main() {
 
         case 5:
             if(canto != cantoGol){
-                cout << "\n⚽ GOOOOOOL NO CANTO INFERIOR ESQUERDO!\n\n A SELEÇÃO BRASILEIRA CHEGA NA SEMIFINAL DEPOIS DE UM JOGO HISTÓICO CONTRA SUA MAIOR RIVAL"
+                cout << "\n⚽ GOOOOOOL NO CANTO INFERIOR ESQUERDO!\n\n A SELEÇÃO BRASILEIRA CHEGA NA SEMIFINAL DEPOIS DE UM JOGO HISTÓICO CONTRA SUA MAIOR RIVAL";
                 vitoriaArg = true;
             } else {
                 cout << "\n🧤 GOLEIRO DEFENDEU NO LADO ESQUERDO ❌\n";
@@ -492,14 +490,14 @@ int main() {
 
 )";
             }else {
-                cout << "VOCE PERDEU O PÊNALTI, MAS NAO PERDEU AS ESPERANÇAS"
+                cout << "VOCE PERDEU O PÊNALTI, MAS NAO PERDEU AS ESPERANÇAS";
             }
                  
              }
                
             } else {
                 cout << "-------------------- O JOGO CONTINUA EMPATADO EM 0 X 0 --------------------\n\n";
-                cout << "MESSI PEGA NA BOLA, DEIXA A MARCAÇÃO PARA TRÁS E ACHA UM PASSE FENOMENAL NO MEIO DA ZAGA BRASILEIRA\n\n -------------------- 0 X 1 --------------------\n\n O JOGO QUE JÁ ESTAVA DIFICL ACABOU DE PIORAR!\n\n"
+                cout << "MESSI PEGA NA BOLA, DEIXA A MARCAÇÃO PARA TRÁS E ACHA UM PASSE FENOMENAL NO MEIO DA ZAGA BRASILEIRA\n\n -------------------- 0 X 1 --------------------\n\n O JOGO QUE JÁ ESTAVA DIFICL ACABOU DE PIORAR!\n\n";
                 
                 
             }
