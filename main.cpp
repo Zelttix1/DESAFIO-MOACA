@@ -232,6 +232,87 @@ int main() {
                     🇧🇷 BRASIL  x  ALEMANHA 🇩🇪
             O JOGO MAIS IMPORTANTE DA SUA CARREIRA COMEÇA AGORA!
 )";
+
+                cout << "\n--------- COMEÇA A FINAL DA COPA DO MUNDO ---------\n\n";
+        cout << "A Alemanha começa pressionando muito!\n\n";
+        cout << "Com 10 minutos de jogo, cruzamento na área e o atacante alemão cabeceia...\n\n";
+        cout << "ESCOLHA O QUE VOCÊ VAI FAZER:\n\n";
+        cout << "1- TENTAR TIRAR DE CABEÇA\n2- TENTAR DOMINAR\n3- DEIXAR PRO GOLEIRO\n";
+        cin >> acao;
+
+        if(acao == 1){
+            cout << "\nVOCÊ SOBE MAIS ALTO QUE TODO MUNDO E TIRA A BOLA!\n";
+        } 
+        else if(acao == 2){
+            cout << "\nVOCÊ ERRA O DOMÍNIO E A ALEMANHA FAZ O GOL ❌\n";
+            cout << "----------- 1 X 0 PARA A ALEMANHA -----------\n";
+        } 
+        else {
+            cout << "\nO GOLEIRO SAI MAL E A ALEMANHA FAZ O GOL ❌\n";
+            cout << "----------- 1 X 0 PARA A ALEMANHA -----------\n";
+        }
+
+        cout << "\nO BRASIL COMEÇA A REAGIR NO JOGO!\n";
+        cout << "A bola sobra pra você na entrada da área!\n\n";
+        cout << "ESCOLHA SUA AÇÃO:\n\n";
+        cout << "1- CHUTAR DE PRIMEIRA\n2- DOMINAR E CHUTAR\n3- DRIBLAR O ZAGUEIRO\n";
+        cin >> acao;
+
+        if(acao == 1){
+            cout << "\nQUE CHUTAÇO!!! ⚽ GOOOOOOL DO BRASIL!!!\n";
+            cout << "----------- 1 X 1 -----------\n";
+        }
+        else if(acao == 2){
+            cout << "\nVOCÊ DOMINA, MAS DEMORA MUITO E A ZAGA CORTA ❌\n";
+        }
+        else {
+            cout << "\nVOCÊ DRIBLA O ZAGUEIRO E CHUTA NO CANTO!!! ⚽ GOOOOOOL!!!\n";
+            cout << "----------- 1 X 1 -----------\n";
+        }
+
+        cout << "\nO JOGO FICA MUITO EQUILIBRADO!\n\n";
+        cout << "NO FINAL DO SEGUNDO TEMPO TEM FALTA PARA O BRASIL!\n";
+        cout << "SÓ VOCÊ PODE BATER ESSA FALTA!\n\n";
+
+        cout << "ESCOLHA O CANTO:\n";
+        cout << "1- SupDireito\n2- InfDireito\n3- Meio\n4- SupEsquerdo\n5- InfEsquerdo\n";
+        cin >> canto;
+
+        cantoGol = rand() % 5 + 1;
+
+        if(canto != cantoGol){
+            cout << "\n⚽ GOLAÇO!!!!!!!!!\n";
+            cout << "----------- 2 X 1 PARA O BRASIL -----------\n";
+        } 
+        else {
+            cout << "\n🧤 O GOLEIRO DEFENDE!!!!\n";
+            cout << "O JOGO VAI PARA OS PÊNALTIS!\n\n";
+
+            cout << "ESCOLHA O CANTO DO PÊNALTI:\n";
+            cin >> canto;
+            cantoGol = rand() % 5 + 1;
+
+            if(canto != cantoGol){
+                cout << "\n⚽ GOOOOOOL!!!\n";
+                cout << "----------- BRASIL CAMPEÃO DO MUNDO -----------\n";
+            } else {
+                cout << "\n🧤 DEFENDEU...\n";
+                cout << "----------- A ALEMANHA É CAMPEÃ -----------\n";
+                return 0;
+            }
+        }
+
+        cout << R"(
+
+-------------------- FIM DA FINAL --------------------
+
+        🇧🇷 BRASIL CAMPEÃO DO MUNDO 🇧🇷
+
+                ⭐⭐⭐⭐⭐⭐ HEXA ⭐⭐⭐⭐⭐⭐
+
+        PARABÉNS " )" << nome << R"( " !!!
+
+)";
         } else {
             cout << "\n🧤 DEFENDEU! O SONHO ACABOU.";
         }
